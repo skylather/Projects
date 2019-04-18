@@ -1,7 +1,23 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
 *.py[cod]
 
 # C extensions
 *.so
+
+# VisualStudioCode
+.vscode/*
+
+
 
 # Packages
 *.egg
